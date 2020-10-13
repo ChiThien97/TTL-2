@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include "header.h"
 
 int main(){
 	
@@ -14,4 +13,10 @@ int main(){
 	}
 	else cout<<"Khong the chia cho 0"<<endl;
 	return 0;
+	
+	float r;
+	cout<<"Nhap ban kinh hinh tron: ";
+	cin>>r;
+	cout<<"Dien tich la: <<S_HinhTron(r)<<endl;
+	cout<<"Chu vi la: <<C_HinhTron(r)<<endl;
 }
