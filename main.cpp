@@ -42,10 +42,10 @@ int main(){
 	cout<<"Chu vi la: "<<C_HinhTron(r)<<endl;
 	
 	//Hieu
-	cout<<"Hieu 2 so ngau nhien la: "<<Hieu()<<endl;
+	Hieu();
 
 	//tong
-	cout<<"tong 2 so ngau nhien la:"<<tong()<<endl;
+	tong();
 
 	system("pause");
 	return 0;
