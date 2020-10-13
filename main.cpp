@@ -1,8 +1,7 @@
-#include <iostream>
-using namespace std;
+#include <header.h>
 
 int main(){
-	
+	//cau 1:
 	cout<<"Nhap lan luot a va b";
 	cin>>a;
 	cin>>b;
@@ -13,5 +12,12 @@ int main(){
 		cout<<"Ket qua chia "<<a/b<<endl;
 	}
 	else cout<<"Khong the chia cho 0"<<endl;
+	
+	//cau 2:
+	int a;
+	cout<<"nhap canh a va b:";
+	cin>>a;
+	cvhv(a);
+	dthv(a);
 	return 0;
 }
