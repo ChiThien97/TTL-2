@@ -1,6 +1,6 @@
 #include "header.h"
 
-float dthv(int a)
+float dthv(float a)
 {
 	return a*a;
 }

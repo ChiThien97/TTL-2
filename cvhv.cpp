@@ -1,6 +1,6 @@
-#includes "header.h"
+#include "header.h"
 
-float cvhv(int a)
+float cvhv(float a)
 {
 	return a*4;
 }
