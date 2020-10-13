@@ -19,8 +19,8 @@ int main(){
 	float i;
 	cout<<"nhap canh i:";
 	cin>>i;
-	cout<<"chu vi hv" <<cvhv(i);
-	cout << "dien tich hv" << dthv(i);
+	cout<<"chu vi hv" <<cvhv(i)<<endl;
+	cout << "dien tich hv" << dthv(i)<<endl;
 	
 	
 	//Cv-DtHCN
@@ -30,16 +30,19 @@ int main(){
 	cout << "Nhap rong: ";
 	cin>>rong;
 	cout<<"Ket qua chi vi HCN: "<<cvHCN(dai,rong)<<endl;
-	cout<<"Ket qua dien tich HCN: "<<dtHCN(dai,rong);
+	cout<<"Ket qua dien tich HCN: "<<dtHCN(dai,rong)<<endl;
 	
 	
 	
-
+	//Hinh tron:
 	float r;
 	cout<<"Nhap ban kinh hinh tron: ";
 	cin>>r;
 	cout<<"Dien tich la: "<<S_HinhTron(r)<<endl;
 	cout<<"Chu vi la: "<<C_HinhTron(r)<<endl;
+	
+	//Hieu
+	cout<<"Hieu 2 so ngau nhien la: "<<Hieu()<<endl;
 
 	//tong
 	cout<<"tong 2 so ngau nhien la:"<<tong()<<endl;
