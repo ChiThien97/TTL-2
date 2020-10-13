@@ -12,3 +12,5 @@ float dtHCN (float dai, float rong);
 
 float C_HinhTron(float r);
 float S_HinhTron(float r);
+
+int tong();

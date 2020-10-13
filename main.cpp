@@ -41,6 +41,11 @@ int main(){
 	cout<<"Dien tich la: "<<S_HinhTron(r)<<endl;
 	cout<<"Chu vi la: "<<C_HinhTron(r)<<endl;
 
+	//tong
+	cout<<"tong 2 so ngau nhien la:"<<tong()<<endl;
+
 	system("pause");
 	return 0;
+	
+	
 }
